@@ -62,11 +62,11 @@ class Owner
   end
   
   def self.count 
-    self.all.length
+    self.class.all.length
   end
   
   def self.reset_all
-    self.all.clear
+    self.class.all.clear
   end
   
 end
