@@ -15,11 +15,11 @@ class Owner
   end
   
   def self.count 
-    self.class.all.length 
+    @@all.length 
   end
   
   def self.reset_all
-    self.class.all = []
+    @@all = []
   end
     
   def say_species
