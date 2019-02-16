@@ -67,7 +67,7 @@ class Owner
   end
   
   def self.reset_all
-    self.all = []
+    self.all.clear
   end
   
 end
