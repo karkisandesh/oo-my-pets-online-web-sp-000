@@ -17,11 +17,11 @@ class Owner
   end
   
   def self.count 
-    @@all.length
+    self.classall.length
   end
   
   def self.reset_all
-    @@all = []
+    self.all = []
   end
     
   def say_species
