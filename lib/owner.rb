@@ -70,10 +70,5 @@ class Owner
   def self.reset_all
     self.all = []
   end
-    
-  def say_species
-    
-  end
-    
   
 end
