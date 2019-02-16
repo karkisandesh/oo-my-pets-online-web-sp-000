@@ -27,7 +27,9 @@ class Owner
   end
 
   def walk_dogs
-   
+   @oets[:dogs].each do |dog|
+     dog.mood = "happy"
+   end
   end
 
   def play_with_cats
