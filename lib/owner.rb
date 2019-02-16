@@ -8,5 +8,9 @@ class Owner
     @@all
   end
   
+  def count 
+    self.class.all 
+  end
+  
   
 end
